@@ -1,4 +1,5 @@
 # terraform
+(fork of [https://github.com/sintaxi/terraform](https://github.com/sintaxi/terraform))
 
 > Terraform is the pre-processor engine for the [Harp](https://github.com/sintaxi/harp) web server. Terraform does not write or serve files. It processes and provides a layout/partial paradigm.
 
@@ -12,14 +13,14 @@
 
 ### Supported Pre-Processors
 
-**HTML** – EJS, Jade, Markdown
-**CSS** – LESS, Stylus, Sass (SCSS)
-**JavaScript** – CoffeeScript
+- **HTML** – EJS, Jade, Markdown
+- **CSS** – LESS, Stylus, Sass (SCSS)
+- **JavaScript** – ***IcedCoffeeScript***, ***Dart***
 
 ## Install
 
 ```
-npm install terraform
+npm install git+https://github.com/priezz/terraform.git
 ```
 
 ## API
@@ -58,8 +59,6 @@ npm test
 ```
 
 ## License
-
-Copyright © 2012–2014 Chloi Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
