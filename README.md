@@ -1,5 +1,5 @@
 # terraform
-(fork of [](https://github.com/sintaxi/terraform))
+(fork of [https://github.com/sintaxi/terraform](https://github.com/sintaxi/terraform))
 
 > Terraform is the pre-processor engine for the [Harp](https://github.com/sintaxi/harp) web server. Terraform does not write or serve files. It processes and provides a layout/partial paradigm.
 
