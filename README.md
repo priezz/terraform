@@ -19,7 +19,7 @@
 ## Install
 
 ```
-npm install terraform
+npm install git+https://github.com/priezz/terraform.git
 ```
 
 ## API
