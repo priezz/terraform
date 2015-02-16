@@ -1,6 +1,6 @@
 {
   "name": "terraform",
-  "version": "0.9.0",
+  "version": "0.10.3",
   "description": "pre-processor engine that powers the harp web server",
   "repository": {
     "type": "git",
@@ -15,48 +15,34 @@
     "email": "brock@chloi.io"
   },
   "contributors": [
-    {
-      "name": "Brock Whitten",
-      "email": "brock@chloi.io"
-    },
-    {
-      "name": "Brian Donovan",
-      "email": "donovan@squareup.com"
-    },
-    {
-      "name": "Kenneth Ormandy",
-      "email": "kenneth@chloi.io"
-    },
-    {
-      "name": "Zhang Yichao",
-      "email": "echaozh@gmail.com"
-    },
-    {
-      "name": "Carlos Rodriguez"
-    },
-    {
-      "name": "Zeke Sikelianos",
-      "email": "zeke@sikelianos.com"
-    },
-    {
-      "name": "Guilherme Rodrigues",
-      "email": "gadr90@gmail.com"
-    }
+	  { "name": "Brock Whitten", "email": "brock@chloi.io" },
+	  { "name": "Brian Donovan", "email": "donovan@squareup.com" },
+	  { "name": "Kenneth Ormandy", "email": "kenneth@chloi.io" },
+	  { "name": "Zhang Yichao", "email": "echaozh@gmail.com" },
+	  { "name": "Carlos Rodriguez" },
+	  { "name": "Zeke Sikelianos", "email": "zeke@sikelianos.com" },
+	  { "name": "Guilherme Rodrigues", "email": "gadr90@gmail.com" },
+	  { "name": "Radu Brehar", "email": "radu@jslog.com" },
+	  { "name": "Glen Maddern", "email": "glenmaddern@gmail.com" },
+	  { "name": "Jed Foster", "email": "jed@jedfoster.com" },
+	  { "name": "Sehrope Sarkuni", "email": "sehrope@jackdb.com" },
+	  { "name": "Keiichiro Matsumoto", "email": "matsumos@gmail.com" }
   ],
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": ">=2.2.0",
+    "autoprefixer": ">=5.1.0",
     "dart2js-gulp": "git+https://github.com/priezz/dart2js-gulp.git",
-    "ejs": ">=1.0.0",
-    "gulp-adapter": "^0.1.0",
+    "gulp-adapter": ">=0.1.0",
     "iced-coffee-script": ">=1.8.0-c",
-    "jade": ">=0.35.0",
-    "less": ">=1.7.4",
+    "ejs": ">=1.0.0",
+    "jade": ">=1.9.0",
+    "less": ">=1.7.5",
     "lru-cache": ">=2.5.0",
-    "marked": ">=0.2.9",
-    "node-sass": "<1.2.0",
+    "marked": ">=0.3.0",
+    "node-sass": ">=2.0.1",
     "record": "^0.2.0",
-    "stylus": ">=0.47.3"
+    "stylus": ">=0.47.3",
+    "minify": "git://github.com/kennethormandy/minify#v0.3.0"
   },
   "devDependencies": {
     "mocha": ">=1.8.2",
