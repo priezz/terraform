@@ -15,7 +15,7 @@
 
 - **HTML** – EJS, Jade, Markdown
 - **CSS** – LESS, Stylus, Sass (SCSS)
-- **JavaScript** – ***IcedCoffeeScript***, ***Dart***
+- **JavaScript** – ***IcedCoffeeScript***, ***Dart***, ***TypeScript***
 
 ## Install
 
