@@ -16,6 +16,10 @@
   },
   "contributors": [
     {
+      "name": "Alexandr Priezzhev",
+      "email": "a@priezz.net"
+    },
+    {
       "name": "Brock Whitten",
       "email": "brock@chloi.io"
     },
@@ -68,6 +72,7 @@
     "autoprefixer": ">=5.1.0",
     "dart2js-gulp": "git+https://github.com/priezz/dart2js-gulp.git",
     "ejs": ">=1.0.0",
+    "fs": "0.0.2",
     "gulp-adapter": ">=0.1.0",
     "iced-coffee-script": ">=1.8.0-c",
     "jade": ">=1.9.0",
@@ -75,6 +80,7 @@
     "lru-cache": ">=2.5.0",
     "marked": ">=0.3.0",
     "minify": "git://github.com/kennethormandy/minify#v0.3.0",
+    "mkdirp": "^0.5.0",
     "node-sass": ">=2.0.0",
     "record": "^0.2.0",
     "stylus": ">=0.47.3",
